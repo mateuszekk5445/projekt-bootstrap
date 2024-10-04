@@ -1,5 +1,4 @@
-//const apiKey = '62fc137715dc5e847a5da1b2905b06cc';
-const apiKey = process.env.API_KEY;
+const apiKey = '62fc137715dc5e847a5da1b2905b06cc';
 const apiBaseUrl = 'https://api.openweathermap.org/data/2.5/';
 
 document.getElementById('searchBtn').addEventListener('click', function() {
